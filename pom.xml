@@ -91,5 +91,9 @@
             <url>http://127.0.0.1:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
 
+		  <repository>
+            <id>nexus-public</id>
+            <url>http://127.0.0.1:8081/repository/maven-public/</url>
+        </repository>
     </distributionManagement>
 </project>
